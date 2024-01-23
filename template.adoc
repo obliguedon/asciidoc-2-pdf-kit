@@ -1,0 +1,29 @@
+= <title>: <subtitle>
+:doctype: book
+:toc:
+:author: <First name> <Last name>
+:email: <your.mail@example.com>
+:revdate: <YYYY-MM-DD>
+:revnumber: v0.1
+:revremark: <anything>
+:orgname: <My org>
+:imagesdir: ./images
+:xrefstyle: full
+
+:!sectnums:
+[abstract]
+== abstract
+--
+this document describe ..?
+--
+
+ifdef::env-pdf[]
+== list of figures
+list-of::image[]
+
+== list of tables
+list-of::table[]
+endif::env-pdf[]
+:sectnums:
+
+== first section
